@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Jiggle</title>
+</head>
+<body>
+    <div class="container-fluid flex">
+        <div class="col-2 p-0 d-n">
+            <img class="wd h-1"src="images/Jiggle Vendors logo.png" alt="image">
+            <div class="">
+                <div class="pt-3r">
+                    <div class="dropdown text-center">
+                        <button class="btn cp tr w dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="image br" src="images/transaction image.png" alt="">
+                           <span class="d-nm">Transaction</span>
+                        </button>
+                        <div class="dropdown-menu bg-lg nb" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item w" href="#">Payment</a>
+                          <a class="dropdown-item w" href="#">Wallet</a>
+                          <a class="dropdown-item w" href="#">Order</a>
+                        </div>
+                    </div>
+                    <div class="dropdown text-center">
+                        <button class="mt-3 btn cp tr w dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="image br" src="images/account image.png" alt="">
+                           <span class="ml-2 d-nm mr-2 aml"> Accounts</span>
+                        </button>
+                        <div class="dropdown-menu bg-lg nb" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item w" href="#">Employees</a>
+                          <a class="dropdown-item w" href="#">Users</a>
+                          </div>
+                    </div>
+                    <div class="dropdown text-center">
+                        <button class="mt-3 btn cp tr w dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="image br" src="images/vendor image.png" alt="">
+                           <span class="ml-2 d-nm mr-3">Vendors</span>
+                        </button>
+                        <div class="dropdown-menu bg-lg nb" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item w" href="#">item</a>
+                          <a class="dropdown-item w" href="#">item</a>
+                        </div>
+                    </div>
+                    <div class="dropdown text-center">
+                        <button class="mt-3 btn cp tr w dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="image br" src="images/vendor image.png" alt="">
+                           <span class="ml-2 d-nm mr-3">Settings</span>
+                        </button>
+                        <div class="dropdown-menu bg-lg nb" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item w" href="#">Bundles</a>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="col-sm-10 p-0 bg-gray">
+            <div class="h-1 p-2 pt-2 bg-white flex">
+                <div class="flex3"></div>
+                <div class="flex">
+                    <img class="image" src="images/lady.png" alt="image">
+                    <p class="b ml-3">Jennifer</p>
+                    <img class="image ml-4" src="images/bell icon.png" alt="image">
+                    <p class="gray cp pl-3 pr-3 pb-4 mr-35 ml-4">Logout</p>
+                </div>
+            </div>
+            <div class="flex p-2 pt-3">
+                <div class="flex3 b"> Vendors</div>
+                <!-- Button trigger modal -->
+                <div type="button "class="bg-blue w p-1 pr-2 mr-35" data-toggle="modal" data-target="#exampleModal">
+                    + Add Vendor
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Register a vendor account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body pl-5 pr-5">
+                        <div><img src="images/fullname icon.png" class="image" alt="">Full Name
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/companyname icon.png" class="image" alt="">Company Name
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/companyaddress icon.png" class="image" alt="">Company Address
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/state icon.png" class="image" alt="">State
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/email icon.png" class="image" alt="">Email
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/phone icon.png" class="image" alt="">Phone
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <div><img src="images/password icon.png" class="image" alt="">Password
+                            <input type="text" class="wd bb-g">
+                        </div>
+                        <button type="button" class="mt-3 btn cp mt-3 btn-primary wd">Submit</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="pl-4 pt-1">
+                <div  class="flex d-b bg-white p-2 mr-45">
+                    <div class="col-lg-4">
+                        <p>Name</p>
+                        <input class="input wd" type="text1">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Email</p>
+                        <input class="input wd" type="text1">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Phone Number</p>
+                        <input class="input wd" type="text">
+                        <div class="bb cp mt-2">Filter</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 pl-4 pt-4 pr-0">
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 pl-4 pt-2 pr-0">
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-12 pl-4 pt-2 pr-0">
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Eka udo image.png" alt="">
+                    <p class="b">Eka-udoh</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bg-white text-center">
+                    <img class="wd" src="images/Afro pot image.png" alt="">
+                    <p class="b">Afro-pot</p>
+                    <p class="text-gray ts-11">Shopping complex, University of Uyo, <br>
+                        Akwa-ibom State
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
